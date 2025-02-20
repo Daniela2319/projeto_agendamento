@@ -18,11 +18,6 @@ namespace Agendamento
             Preco = preco;
         }
 
-        public void Exibir()
-        {
-            Console.WriteLine($"Serviço: {Nome}, Preço: {Preco:F2}");
-        }
-
         public override string ToString()
         {
             return $"Serviço: {Nome}, Preço: R$ {Preco:F2}";

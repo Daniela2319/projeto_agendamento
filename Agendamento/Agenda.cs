@@ -20,11 +20,6 @@ namespace Agendamento
             DataHora = dataHora;
         }
 
-        public void Exibir()
-        {
-            Console.WriteLine($"Agendamento {Cliente.Name} -  {Servico.Nome} em  {DataHora:dd/MM/yyyy HH:mm}");
-        }
-
         public override string ToString()
         {
             return $"Agendamento {Cliente.Name} -  {Servico.Nome} em  {DataHora:dd/MM/yyyy HH:mm}";
