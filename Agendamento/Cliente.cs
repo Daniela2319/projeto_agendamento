@@ -19,11 +19,6 @@ namespace Agendamento
             Email = email;
         }
 
-        public void Exibir()
-        {
-            Console.WriteLine($"Cliente: {Name}, Celular: {Celular}, Email: {Email}");
-        }
-
         public override string ToString()
         {
             return $"Cliente: {Name}, Celular: {Celular}, Email: {Email}";
