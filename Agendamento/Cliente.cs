@@ -19,9 +19,8 @@ namespace Agendamento
             Email = email;
         }
 
-        public override string ToString()
-        {
-            return $"Cliente: {Name}, Celular: {Celular}, Email: {Email}";
-        }
+   
+
+        
     }
 }

@@ -17,6 +17,7 @@ namespace Agendamento
             Clientes.Add(cliente);
             Console.WriteLine($"Cliente {cliente.Name}, Email: {cliente.Email}");
         }
+        
 
         public void AdicionarServico(Servico servico)
         {
@@ -39,5 +40,7 @@ namespace Agendamento
                 Console.WriteLine(agendamento.ToString());
             }
         }
+
+      
     }
 }

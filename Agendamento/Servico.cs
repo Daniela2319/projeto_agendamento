@@ -18,9 +18,6 @@ namespace Agendamento
             Preco = preco;
         }
 
-        public override string ToString()
-        {
-            return $"Serviço: {Nome}, Preço: R$ {Preco:F2}";
-        }
+      
     }
 }
